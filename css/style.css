@@ -1,0 +1,93 @@
+@font-face {
+    font-family:            'Press Start 2P';
+    src:                    url("../fonts/PressStart2P.ttf") format("truetype");
+}
+
+body {
+    background-attachment:  fixed;
+    background-image:       url("../assets/backgrounds/background.png");
+    background-position:    center;
+    background-repeat:      no-repeat;
+    background-size:        cover;
+    font-family:            'Trebuchet MS', sans-serif;
+}
+
+div#content {
+    background-color:       white;
+    font-size:              15px;
+    margin:                 auto;
+    padding:                12px 25px 12px 50px;
+    width:                  75%;
+}
+
+div#header {
+    background-color:       white;
+    margin:                 auto;
+    padding:                25px 25px 12px 50px;
+    width:                  75%;
+}
+
+h1 {
+    font-family:            'Press Start 2P';
+    font-size:              40px;
+    text-align:             center;
+}
+
+h2 {
+    font-size:              20px;
+    font-style:             italic;
+    text-align:             center;
+}
+
+h3 {
+    font-size:              17px;
+}
+
+img {
+    width:                  33px;
+}
+
+span#life {
+    color:                  red;
+}
+
+table {
+    font-size:              15px;
+    font-weight:            normal;
+    text-align:             left;
+    width:                  100%;
+}
+
+td#cover {
+    text-align:             center;
+    width:                  25px;
+}
+
+td#ESRB {
+    text-align:             center;
+}
+
+td#platform {
+    text-align:             center;
+}
+
+td#rating {
+    color:                  red;
+    font-family:            'Press Start 2P';
+    font-size:              11px;
+    text-align:             center;
+}
+
+th {
+    background-color:       #F4F4F4;
+    padding:                5px 5px 5px 5px;
+    text-align:             left;
+}
+
+tr {
+    font-weight:            normal;
+}
+
+tr#columns {
+    font-weight:            bold;
+}
